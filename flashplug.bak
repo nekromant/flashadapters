@@ -1,0 +1,280 @@
+EESchema Schematic File Version 2  date Вск 22 Июл 2012 00:29:07
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:powerjack
+LIBS:GS6300
+LIBS:buspirate
+LIBS:M25P05
+LIBS:mx25l128
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "21 jul 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7650 3150 7550 3150
+Wire Wire Line
+	7550 3150 7550 3250
+Wire Wire Line
+	7650 2650 7550 2650
+Wire Wire Line
+	7550 2650 7550 2450
+Wire Wire Line
+	7650 2850 7300 2850
+Wire Wire Line
+	7650 2750 7300 2750
+Wire Wire Line
+	7650 2950 7300 2950
+Wire Wire Line
+	7800 4300 7800 4500
+Wire Wire Line
+	7800 4500 7850 4500
+Wire Wire Line
+	6850 5300 6650 5300
+Wire Wire Line
+	6850 5000 6650 5000
+Wire Wire Line
+	6850 4800 6650 4800
+Wire Wire Line
+	7850 5000 7800 5000
+Wire Wire Line
+	7800 5000 7800 5250
+Wire Wire Line
+	5450 6150 5450 5900
+Connection ~ 5450 3950
+Wire Wire Line
+	5450 3950 3300 3950
+Wire Wire Line
+	3300 3950 3300 4200
+Wire Wire Line
+	4250 4800 3900 4800
+Wire Wire Line
+	4250 4600 3900 4600
+Wire Wire Line
+	5450 3900 5450 4100
+Wire Wire Line
+	4250 4700 3900 4700
+Wire Wire Line
+	4250 4900 3300 4900
+Wire Wire Line
+	3300 4900 3300 4700
+Wire Wire Line
+	6850 5100 6650 5100
+Wire Wire Line
+	6650 4700 6850 4700
+Wire Wire Line
+	6650 4900 6850 4900
+Wire Wire Line
+	6650 5200 6850 5200
+Wire Wire Line
+	6650 5400 6850 5400
+Wire Wire Line
+	7850 4800 7650 4800
+Wire Wire Line
+	7850 4600 7650 4600
+Wire Wire Line
+	7650 4700 7850 4700
+Wire Wire Line
+	7650 4900 7850 4900
+Wire Wire Line
+	7650 5750 7850 5750
+Wire Wire Line
+	7650 5550 7850 5550
+Wire Wire Line
+	7850 5650 7650 5650
+Wire Wire Line
+	7650 3050 7300 3050
+Wire Wire Line
+	7750 6000 7750 5850
+Wire Wire Line
+	7750 5850 7850 5850
+$Comp
+L GND #PWR?
+U 1 1 500B10F8
+P 7550 3250
+F 0 "#PWR?" H 7550 3250 30  0001 C CNN
+F 1 "GND" H 7550 3180 30  0001 C CNN
+	1    7550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P?
+U 1 1 500B10F5
+P 8000 2900
+F 0 "P?" V 7950 2900 60  0000 C CNN
+F 1 "CONN_6" V 8050 2900 60  0000 C CNN
+	1    8000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 500B1018
+P 7750 6000
+F 0 "#PWR01" H 7750 6000 30  0001 C CNN
+F 1 "GND" H 7750 5930 30  0001 C CNN
+	1    7750 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P103
+U 1 1 500B1015
+P 8200 5700
+F 0 "P103" V 8150 5700 50  0000 C CNN
+F 1 "CONN_4" V 8250 5700 50  0000 C CNN
+	1    8200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P102
+U 1 1 500B0FE9
+P 8200 4750
+F 0 "P102" V 8150 4750 60  0000 C CNN
+F 1 "CONN_6" V 8250 4750 60  0000 C CNN
+	1    8200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 500B0EFC
+P 7550 2450
+F 0 "#PWR02" H 7550 2550 30  0001 C CNN
+F 1 "VCC" H 7550 2550 30  0000 C CNN
+	1    7550 2450
+	1    0    0    -1  
+$EndComp
+Text Label 7300 2850 0    60   ~ 0
+SO
+Text Label 7300 3050 0    60   ~ 0
+CLK
+Text Label 7300 2950 0    60   ~ 0
+SI
+Text Label 7300 2750 0    60   ~ 0
+CS
+Text Label 7650 5550 0    60   ~ 0
+P00
+Text Label 7650 5650 0    60   ~ 0
+P01
+Text Label 7650 5750 0    60   ~ 0
+P02
+Text Label 7650 4600 0    60   ~ 0
+P03
+Text Label 7650 4700 0    60   ~ 0
+P04
+Text Label 7650 4800 0    60   ~ 0
+P05
+Text Label 7650 4900 0    60   ~ 0
+P06
+$Comp
+L VCC #PWR03
+U 1 1 500B0E27
+P 7800 4300
+F 0 "#PWR03" H 7800 4400 30  0001 C CNN
+F 1 "VCC" H 7800 4400 30  0000 C CNN
+	1    7800 4300
+	1    0    0    -1  
+$EndComp
+Text Label 6850 5400 2    60   ~ 0
+P02
+Text Label 6850 5300 2    60   ~ 0
+P01
+Text Label 6850 5200 2    60   ~ 0
+P00
+Text Label 6850 5000 2    60   ~ 0
+P06
+Text Label 6850 4900 2    60   ~ 0
+P05
+Text Label 6850 4800 2    60   ~ 0
+P04
+Text Label 6850 4700 2    60   ~ 0
+P03
+$Comp
+L GND #PWR04
+U 1 1 500B0DD3
+P 7800 5250
+F 0 "#PWR04" H 7800 5250 30  0001 C CNN
+F 1 "GND" H 7800 5180 30  0001 C CNN
+	1    7800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 500AA5AE
+P 5450 6150
+F 0 "#PWR05" H 5450 6150 30  0001 C CNN
+F 1 "GND" H 5450 6080 30  0001 C CNN
+	1    5450 6150
+	1    0    0    -1  
+$EndComp
+Text Label 3900 4600 0    60   ~ 0
+CS
+Text Label 3900 4800 0    60   ~ 0
+SI
+Text Label 6850 5100 2    60   ~ 0
+SO
+$Comp
+L R R101
+U 1 1 500AA544
+P 3300 4450
+F 0 "R101" V 3380 4450 50  0000 C CNN
+F 1 "R" V 3300 4450 50  0000 C CNN
+	1    3300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 500AA530
+P 5450 3900
+F 0 "#PWR06" H 5450 4000 30  0001 C CNN
+F 1 "VCC" H 5450 4000 30  0000 C CNN
+	1    5450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX25L128 U101
+U 1 1 500AA514
+P 5450 5000
+F 0 "U101" H 5450 5100 70  0000 C CNN
+F 1 "MX25L128" H 5450 4900 70  0000 C CNN
+	1    5450 5000
+	1    0    0    -1  
+$EndComp
+Text Label 3900 4700 0    60   ~ 0
+CLK
+$EndSCHEMATC

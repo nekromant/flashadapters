@@ -1,0 +1,58 @@
+# EESchema Netlist Version 1.1 created  Вск 22 Июл 2012 00:29:38
+(
+ ( /500B10F5 SIL-6 P101 CONN_6
+  ( 1 VCC )
+  ( 2 /CS )
+  ( 3 /SO )
+  ( 4 /SI )
+  ( 5 /CLK )
+  ( 6 GND )
+ )
+ ( /500B0FE9 SIL-6 P102 CONN_6
+  ( 1 VCC )
+  ( 2 /P03 )
+  ( 3 /P04 )
+  ( 4 /P05 )
+  ( 5 /P06 )
+  ( 6 GND )
+ )
+ ( /500B1015 SIL-4 P103 CONN_4
+  ( 1 /P00 )
+  ( 2 /P01 )
+  ( 3 /P02 )
+  ( 4 GND )
+ )
+ ( /500AA544 SM0805 R101 R
+  ( 1 VCC )
+  ( 2 N-000014 )
+ )
+ ( /500AA514 SO16L U101 MX25L128
+  ( 1 ? )
+  ( 2 VCC )
+  ( 3 ? )
+  ( 4 /P02 )
+  ( 5 /P01 )
+  ( 6 /P00 )
+  ( 7 /CS )
+  ( 8 /SO )
+  ( 9 N-000014 )
+  ( 10 GND )
+  ( 11 /P03 )
+  ( 12 /P04 )
+  ( 13 /P05 )
+  ( 14 /P06 )
+  ( 15 /SI )
+  ( 16 /CLK )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R101
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

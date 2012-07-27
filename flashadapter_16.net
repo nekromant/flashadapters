@@ -1,0 +1,48 @@
+# EESchema Netlist Version 1.1 created  Сбт 21 Июл 2012 20:08:53
+(
+ ( /500A9F6F PIN_ARRAY_5x2 BP101 BUSPIRATE
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /CLK )
+  ( 8 /SI )
+  ( 9 /CS )
+  ( 10 /SO )
+ )
+ ( /500AA544 SM0805 R101 R
+  ( 1 VCC )
+  ( 2 N-000004 )
+ )
+ ( /500AA514 SO16W U101 MX25L128
+  ( 1 ? )
+  ( 2 VCC )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /CS )
+  ( 8 /SO )
+  ( 9 N-000004 )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /SI )
+  ( 16 /CLK )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R101
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

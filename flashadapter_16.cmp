@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2012-02-05 BZR 3258)-stable date = Сбт 21 Июл 2012 20:08:53
+
+BeginCmp
+TimeStamp = /500A9F6F;
+Reference = BP101;
+ValeurCmp = BUSPIRATE;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /500AA544;
+Reference = R101;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /500AA514;
+Reference = U101;
+ValeurCmp = MX25L128;
+IdModule  = SO16W;
+EndCmp
+
+EndListe
